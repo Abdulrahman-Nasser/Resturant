@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+h2{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    margin-top: 70px;
+    line-height: 1.8;
+}
+h3{
+    color: #c1ab84;
+    font-family: "Dancing Script";
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+h4{
+    color: #253048;
+    font-size: 21px;
+    font-family: "Alegreya";
+    line-height: 2;
+    padding: 20px;
+}
+p{
+    line-height: 1.8;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+}
+.container{
+    width: 93%;
+    margin: auto;
+}
+.parent{
+    background-color: #f8f8f8;
+}
+.food{
+    width: 33%;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+/* ////////////////////////////////////////// *
+/
+/******** section french_restaurant *********/
+.french_restaurant{
+    height: 650px;
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+
+}
+.french_restaurant .french_img{
+    width: 28%;
+    margin: auto;
+    margin-top: 70px;
+}
+.french_restaurant .french_text {
+    text-align: center;
+   width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+.french_restaurant .french_text h1{
+    font-size: 76px ;
+    font-weight: 200;
+    margin-bottom: 18px;
+    font-family: 'Alegreya';
+}
+.french_restaurant .french_text p{
+    line-height: 2;
+    margin: 15px 0;
+    font-size: 40px;
+    font-family: "Dancing Script";
+    font-weight: normal;
+}
+.french_restaurant .french_text .btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: "Alegreya Sans";
+}
+.french_restaurant .french_text .btn1{
+    background-color:  #c1ab84;
+    border: 2px solid  #c1ab84 ;
+    color: white;
+    margin: 10px 15px;
+
+}
+/* ////////////////////////////////////////////////// */
+
+/***************** section family ********************/
+ 
+.family .container .family_text{
+    float: left;
+    width: 50%;
+    padding: 80px 0;
+}
+ 
+.container .family_text ul{
+    line-height: 5;
+    list-style: none;
+   margin-top: 60px;
+   font-family: "Alegreya Sans";
+}
+.family .container .family_text ul span i{
+    background-color: #c1ab84;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+    margin-right: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.user span i{
+    width: 40px;
+}
+.user {
+    margin-right:15px ;
+}
+/* /////////////////////////////////////////////// */
+
+/***************section reviewers*****************/
+.reviewers .container .reviewers_text{
+    padding: 20px 15px;
+    width: 50%;
+    float: left;
+}
+
+.container .reviewers_text ul{
+    line-height: 3;
+    list-style: none;
+   margin-top: 20px;
+   font-family: "Alegreya Sans";
+}
+.container .reviewers_text ul span i{
+    color: #c1ab84;
+    margin-right: 15px;
+}
+.reviewers .container .reviewers_text img{
+    margin: 80px 0;
+    padding: 0 15px;
+}
+/* /////////////////////////////////// */
+
+/************section cover************/
+.cover{
+    background-image: url(../img/cover2.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+/* /////////////////////////////////////// */
+
+/************section flag_dishes************/
+.flag_dishes{
+    background-color: #f8f8f8;
+}
+.flag_dishes .container2{
+    width: 93%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 60px 0;
+}
+.parent .flag_dishes .container2 .mnew .btn{
+    border: 4px solid #c1ab84;
+    padding: 11px 20px;
+    color: white;
+    background-color: #c1ab84;
+    border-radius: 4px;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* /////////////////////////////////// */
+
+/*******section cover3******/
+.cover3{
+    background-image: url(../img/cover.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.cover3 .text h2{
+    color: white;
+    font-size: 36px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 0;
+}
+.cover3 .text p{
+    color: white;
+    font-size: 27px;
+    line-height: 2;
+    font-weight: 400;
+    padding: 30px;
+    font-family: "Alegreya Sans";
+}
+.text{
+    margin: auto;
+    text-align: center;
+    width: 93%;
+}
+.cover3 .text .Testimonials span i {
+    border-radius: 100%;
+    color: #ffffffB3;
+    margin-top: 50px;
+    font-size: 3px;
+    width: 40px;
+    opacity: 1;
+}
+.cover3 .text .Testimonials  button span i{
+    background-color: rgba(0, 0, 255, 0.055);
+    border-radius: 100%;
+    border: white solid 2px;
+    color: #ffffffB3;
+    font-size: 13px;
+    width: 30px;
+    padding: 10px;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+}
+.cover3 .text .Testimonials{
+    width: 93%;
+    margin: auto;
+    padding: 30px 0 80px 0;
+}
+.cover3 .text h3{
+    font-size: 20px;
+    font-family: "Alegreya Sans";
+    margin: 10px 0 0 0;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.cover3 .text h4{
+    font-size: 1em;
+    opacity: .7;
+    color: white;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+}
+.cover3 .text .Testimonials  button{
+    background-color: transparent;
+    border: none;
+    padding: 0 2px;
+}
+/* //////////////////////////////////// */
+
+/* *******section frame****** */
+
+.frame .container .frame_son{
+    width: 50%;
+    float: left;
+    padding: 20px 10px;
+    margin-bottom: 60px;
+}
+.frame .container .frame_son h2{
+    margin: 15px 0;
+}
+.frame .container .frame_son ul{
+    line-height: 3;
+    list-style: none;
+     font-family: "Alegreya Sans";
+     padding: 0 15px 0 0;
+     
+}
+   
+.frame .container .frame_son ul li{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.frame .container .frame_son span i{
+    background-color: #c1ab84;
+    width: auto;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.frame .container .iframe{
+    width: 100%;
+    margin-top: 30px;
+    padding: 50px 0;
+}
+/* /////////////////////////////// */
+
+/* *******section info****** */
+.info{
+    background-color: #403d38;
+    height: 500px;
+}
+.info .main{
+    width: 93%;
+    margin: auto;
+    
+}
+.info .main .info_text{
+    width: 25%;
+    margin-top: 60px;
+    float: left;
+    margin-bottom: 30px;
+}
+.info .main .info_text h4{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+.info .main .info_text p{
+    color:  #969696;
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    line-height: 1.86em;
+    margin: 20px;
+}
+.info .main .info_text ul li a{
+    color: #969696;
+    list-style: none;
+}
+.info .main .info_text ul li i{
+    margin: 0 15px 0 0;
+}
+.info .main .info_text ul p{
+    text-transform: capitalize;
+}
+/* ////////////////////////////// */
+
+/*********section footer*********/
+.footer{
+    background-color: #353330;
+    height: 500px;
+}
+.footer .container .footer_img {
+    width: 33.333%;
+    margin: auto;
+    padding: 70px 0 0 0;
+}
+.footer .container .footer_text{
+    text-align: center;
+    color: #777777;
+    margin: auto;
+    width: 23%;
+    padding: 10px 0;
+}
+.footer .container .footer_text a i {
+    font-size: 25px;
+    width: 60px;
+    background-color: #484540;
+    border-radius: 100%;
+    color:  #777777;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    margin: 0 5px;
+}
+
+@media screen and (max-width:667px){
+    .french_restaurant {
+        width: 100%;
+        height: 400px;
+    }
+    .french_restaurant .french_img{
+        margin-top: 41px;
+        width: 45%;
+    }
+    .french_restaurant .french_text h1{
+        font-size: 24px;
+    }
+    .french_restaurant .french_text p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .french_restaurant .french_text .btn{
+        font-size: 14px;
+        padding: 8px 11px;
+    }
+    .french_restaurant .french_text .btn1{
+        margin: 13px 3px;
+
+    }
+    .family .container .family_text{
+        width: 100%;
+        padding: 20px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 6px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .container .family_text ul{
+        margin-bottom: 7px;
+        line-height: 4;
+    }
+    .family .container .family_text ul span i {
+        width: 34px;
+        font-size: 14px;
+        padding: 6px;
+        margin-right: 16px;
+        line-height: 36px;
+    }
+    .container .reviewers_text h2{
+        font-size: 20px;
+    }
+    .container .reviewers_text h3{
+        font-size: 20px;
+    }
+    .container .reviewers_text p{
+        width: 100%;
+    }
+    .reviewers .container .reviewers_text{
+        width: 100%;
+        padding: 15px;
+    }
+    .container .reviewers_text ul li{
+        font-size: 10px;
+    }
+    .reviewers .container .reviewers_text img {
+        margin: 8px 0 30px 0;
+    }
+}
